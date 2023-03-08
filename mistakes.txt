@@ -1,1 +1,2 @@
-ex13.rb: Typo, forgot ":" in two lines.
+ex13.rb: Typo, forgot ":" in two lines
+ex14.rb: Forgot to type `,` between variables for ARGV
