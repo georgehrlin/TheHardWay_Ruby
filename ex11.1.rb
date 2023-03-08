@@ -8,7 +8,7 @@ end
 
 # Study Drills 2 & 3
 print "What's your name? "
-name = gets.chomp
+name = $stdin.gets.chomp
 
 if name == "George"
   puts "Hello, #{name}! Welcome to Ruby!"
@@ -17,15 +17,15 @@ else
 end
 
 print "What's your one biggest hobby? "
-hobby = gets.chomp
+hobby = $stdin.gets.chomp
 
 if hobby == "coffee"
   puts "Cool! What's your favourite brew method? "
-  brew_method = gets.chomp
+  brew_method = $stdin.gets.chomp
   puts "Yum! You gotta make me a cup with #{brew_method} someday!"
 elsif hobby == "workout"
   puts "Damn son! We hit the gym hard! Do you like leg days? "
-  leg_days = gets.chomp.to_bool
+  leg_days = $stdin.gets.chomp.to_bool
   if leg_days
     puts "Let's gooo!"
   elsif

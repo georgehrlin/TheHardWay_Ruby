@@ -12,6 +12,7 @@ puts "Therefore, the time three days later is #{time_future}!"
 # sprintf('% d', 10)
 
 # Trying out percent strings
+=begin
 puts %q{test}
 puts %w{abc 123 l0l 1o1}
 
@@ -25,3 +26,7 @@ puts "Hi"\
   ", I may look like one string."\
   " However, writing me took several"\
   "lines."
+=end
+
+puts "I'm a line!"
+puts ARGV
